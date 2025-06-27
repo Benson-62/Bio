@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gokul N. R. - Biography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #fceabb, #fbb67e);
+      color: #333;
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff8f0;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 200px;
+      height: 200px;
+      background: url('https://cdn.pixabay.com/photo/2017/01/31/13/14/pop-2022983_960_720.png') no-repeat center/contain;
+      opacity: 0.2;
+      transform: rotate(15deg);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 3rem;
+      color: #000000;
+      animation: float 2s ease-in-out infinite;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: #ff6347;
+      border-bottom: 2px dashed #ffb347;
+      padding-bottom: 5px;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: "✨ ";
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ffe4e1;
+      border-radius: 0 0 20px 20px;
+      font-weight: bold;
+      color: #8b0000;
+      margin-top: 1rem;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Funky icon */
+    .funky-icon {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 1.3rem;
+    }
+
+    /* Optional responsive styling */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Benson B Varghese</h1>
+      <p>💻 Computer Science Student | Coder | 📚 Reader</p>
+    </header>
+
+    <section class="about">
+      <h2><span class="funky-icon">🎯</span>About Me</h2>
+      <p>Hi! I'm Benson, a passionate final-year Computer Science student who loves to code.</p>
+    </section>
+
+    <section class="education">
+      <h2><span class="funky-icon">🎓</span>Education</h2>
+      <ul>
+        <li>B.Tech in Computer Science - Sree Narayana Gurukulam College of Egineering</li>
+        <li>Higher Secondary - Sree Buddha Central School</li>
+      </ul>
+    </section>
+
+    <section class="hobbies">
+      <h2><span class="funky-icon">🎨</span>Hobbies</h2>
+      <p>I Love to code , make things and love to do more of engineering works</p>
+    </section>
+
+    <section class="goals">
+      <h2><span class="funky-icon">🚀</span>Future Goals</h2>
+      <p>I aim to build an innovative UI which will thrive a rapid progress in computing , dive deeper into AI.</p>
+    </section>
+
+    <footer>
+      © Benson.B.Varghese - All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
